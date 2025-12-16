@@ -50,29 +50,6 @@ npm run dev
 
 Visit `http://localhost:3000`
 
-## 📁 Project Structure
-
-```
-CeloSenteChain/
-├── contracts/              # Smart contracts
-│   ├── contracts/
-│   │   └── LendingContract.sol
-│   ├── scripts/
-│   │   └── deploy.js
-│   ├── hardhat.config.js
-│   └── package.json
-├── src/
-│   ├── app/               # Next.js App Router
-│   │   ├── page.tsx       # Landing page
-│   │   ├── dashboard/     # Dashboard
-│   │   ├── borrow/        # Borrow page
-│   │   └── repay/         # Repay page
-│   ├── components/        # React components
-│   ├── utils/             # Utilities
-│   └── lib/               # Libraries
-├── public/                # Static assets
-└── package.json
-```
 
 ## 🛠️ Tech Stack
 
@@ -112,34 +89,13 @@ Score ranges:
 - 40-59: Fair
 - 0-39: Poor
 
-## 🌐 Deployment
 
-### Frontend (Vercel)
-```bash
-vercel --prod
-```
 
 ### Smart Contracts (Celo Mainnet)
 ```bash
 npm run deploy:mainnet
 ```
 
-## 🔐 Environment Variables
-
-```env
-NEXT_PUBLIC_CONTRACT_ADDRESS=0x...
-NEXT_PUBLIC_CUSD_ADDRESS=0x765DE816845861e75A25fCA122bb6898B8B1282a
-NEXT_PUBLIC_CELO_RPC=https://forno.celo.org
-PRIVATE_KEY=your_private_key_here
-```
-
-## 📝 License
-
-MIT
-
-## 🙏 Acknowledgments
-
-Built for **Karma Gap - Proof of Ship** on Celo blockchain.
 
 ## 🔗 Links
 
@@ -149,4 +105,4 @@ Built for **Karma Gap - Proof of Ship** on Celo blockchain.
 
 ---
 
-Made with 💚 on Celo
+Made with Love By Ofwono on Celo
